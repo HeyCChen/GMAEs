@@ -108,12 +108,12 @@ CS:
   lr_f: 0.01
   num_hidden: 1024
   num_heads: 4
-  num_layers: 4
+  num_layers: 3
   weight_decay: 1e-5
   weight_decay_f: 1e-4
-  max_epoch: 300
+  max_epoch: 200
   max_epoch_f: 300
-  mask_rate: 0.3
+  mask_rate: 0.5
   num_hops: 1
   encoder: gat
   decoder: gat
@@ -128,7 +128,7 @@ CS:
   alpha_l: 3
   scheduler: True
   pooling: max
-  batch_size: 128
+  batch_size: 256
 Photo:
   lr: 0.001
   lr_f: 0.01
